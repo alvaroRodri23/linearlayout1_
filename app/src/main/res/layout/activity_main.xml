@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="409dp"
+        android:layout_height="354dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="406dp">
+
+        <Button
+            android:id="@+id/txtBoton1"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:background="@drawable/ic_launcher_background"
+            android:text="Edit Profile"
+            android:textColor="#020202"
+            app:backgroundTint="#E8D5D5"
+            app:icon="@android:drawable/ic_dialog_info"
+            app:iconTint="#FFFFFF"
+            app:strokeColor="#DC220404" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Followers                                  Following                        Estrellita" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="411dp"
+        android:layout_height="48dp"
+        android:background="@color/design_default_color_primary"
+        android:ems="10"
+        android:inputType="text"
+        android:text="  EjercicioAndroid2"
+        android:textColor="#F3E4E4"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="187dp"
+        android:layout_height="50dp"
+        android:text="Nombre"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="356dp" />
+
+    <LinearLayout
+        android:layout_width="408dp"
+        android:layout_height="299dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="55dp" >
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ciruclo" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
